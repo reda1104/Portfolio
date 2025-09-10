@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.fab793ea.css",
+    "main.js": "/portfolio/static/js/main.bd015c91.js",
+    "static/media/bakeora.png": "/portfolio/static/media/bakeora.c37e10d8b8818828a5b6.png",
+    "static/media/Hoobank.png": "/portfolio/static/media/Hoobank.9f185b10d4598b19bab3.png",
+    "static/media/Screenshot 2025-05-05 211147.png": "/portfolio/static/media/Screenshot 2025-05-05 211147.346c1f36bd8b43d9b29a.png",
+    "static/media/Montserrat-ExtraBold.ttf": "/portfolio/static/media/Montserrat-ExtraBold.757982f4c71159f6bdc2.ttf",
+    "static/media/Montserrat-Bold.ttf": "/portfolio/static/media/Montserrat-Bold.3530bfc1b50b41bdc29d.ttf",
+    "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.cfbf0da06d33097e6d0a.ttf",
+    "static/media/Montserrat-Medium.ttf": "/portfolio/static/media/Montserrat-Medium.d3f3d769c2fc1af5c0b4.ttf",
+    "static/media/temp.png": "/portfolio/static/media/temp.0eebdbb816b954e52ffc.png",
+    "static/media/sushi.png": "/portfolio/static/media/sushi.c760d9078b1f30c3724b.png",
+    "static/media/fruithub.png": "/portfolio/static/media/fruithub.91510128cb1d5986f9ee.png",
+    "static/media/myweather.png": "/portfolio/static/media/myweather.0e3df759da16ceab6b4e.png",
+    "static/media/MarckScript-Regular.ttf": "/portfolio/static/media/MarckScript-Regular.5b6142752f3269576cc7.ttf",
+    "static/media/Staatliches-Regular.ttf": "/portfolio/static/media/Staatliches-Regular.134482285baed3198bb5.ttf",
+    "static/media/Marcellus-Regular.ttf": "/portfolio/static/media/Marcellus-Regular.379c0e43574baa7d41e9.ttf",
+    "static/media/habittracker.png": "/portfolio/static/media/habittracker.ceb10f2c8bab7b605f92.png",
+    "index.html": "/portfolio/index.html",
+    "main.fab793ea.css.map": "/portfolio/static/css/main.fab793ea.css.map",
+    "main.bd015c91.js.map": "/portfolio/static/js/main.bd015c91.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fab793ea.css",
+    "static/js/main.bd015c91.js"
+  ]
+}
