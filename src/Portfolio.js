@@ -1,10 +1,7 @@
 import React from "react";
-import gtp from "./assets/images/Screenshot 2025-05-05 211147.png";
-import sushi from "./assets/images/sushi.png";
-import HooBank from "./assets/images/Hoobank.png";
-import temp from "./assets/images/temp.png";
 import Loading from "./assets/images/bakeora.png";
-import fruithub from "./assets/images/fruithub.png";
+import ecommerce from "./assets/images/ecommerce.png";
+import newsapp from "./assets/images/newsapp.png";
 import myweather from "./assets/images/myweather.png";
 import habit from "./assets/images/habittracker.png";
 
@@ -13,36 +10,45 @@ import { BsChevronBarExpand } from "react-icons/bs";
 
 const Reda = [
   {
-    id: "ind",
+    id: "weather",
     image: myweather,
-    title: "My Weather",
-    skills: ["Flutter", "BloC", "API", "Dart"],
+    title: "Weather App",
+    skills: ["Flutter", "BLoC", "REST API", "Geolocator"],
     code: "https://github.com/reda1104/Weather-App",
     link: "https://appetize.io/app/b_bbcvkhsue3o4xmjxhdc3er3qxu",
     description:
-      "A beautiful Flutter application that provides real-time weather information for any city or your current location. Features a modern UI, animated weather icons, and smooth state management using BLoC.",
+      "A Flutter weather app that provides current weather by city or device location. Built with BLoC, REST APIs, Geolocator, animated weather visuals, and loading/error state handling.",
   },
   {
-    id: "ind",
+    id: "habit",
     image: habit,
     title: "Habit Tracker",
-    skills: ["Flutter","Provider","Hive","Local Notifications"],
+    skills: ["Flutter", "Provider", "Hive", "Local Notifications"],
     code: "https://github.com/reda1104/Habit-Tracker",
     link: "https://appetize.io/app/b_bq5mmr3ufa3auoy37jdar2xhxu",
     description:
-      "A modern Flutter app to help you build and maintain daily habits.Track your progress, visualize your activity, and stay motivated with reminders and insights.",
+      "An offline habit tracking app with habit creation, completion history, streaks, activity charts, local reminders, and Hive persistence using Provider for state management.",
   },
   {
-    id: "ind",
-    image: fruithub,
-    title: "Fruit Hub (E-commerce)",
-    skills: ["Flutter", "Firebase", "BloC", "Auth"],
-    code: "https://github.com/reda1104/ecommerce",
-    link: "https://appetize.io/app/b_pbq7srvlj73ozb5tc5wbauqnkq",
+    id: "ecommerce",
+    image: ecommerce,
+    title: "E-Commerce App",
+    skills: ["Flutter", "Cubit", "Firebase", "Firestore"],
+    code: "https://github.com/reda1104/e_commerce",
+    link: "https://github.com/reda1104/e_commerce",
     description:
-      "A modern ecommerce application built with Flutter, featuring Firebase authentication, Bloc state management, and a clean, modular architecture (On going project).",
+      "A Flutter e-commerce app featuring authentication, product browsing, favorites, cart interactions, product details, and checkout interfaces using Cubit, Firebase Authentication, and Cloud Firestore.",
   },
- 
+  {
+    id: "news",
+    image: newsapp,
+    title: "News App",
+    skills: ["Flutter", "Cubit", "Dio", "Hive"],
+    code: "https://github.com/reda1104/news_app",
+    link: "https://github.com/reda1104/news_app",
+    description:
+      "A Flutter news application with breaking headlines, search, article details, and locally saved favorites. Built with Cubit, Dio, NewsAPI, and Hive for persistent storage.",
+  },
 ];
 
 function Portfolio() {
@@ -74,7 +80,7 @@ function Portfolio() {
         <p className="absolute text-xl right-[40%] top-[67%] max-md:hidden">
           Explore More Projects on <a href="https://github.com/reda1104" className="underline text-pinkSelection-0">GitHub</a>
         </p>
-        
+
         <a
           href="#portfolio"
           onClick={(e) => {
@@ -131,17 +137,20 @@ function Portfolio() {
                       <div className="hidden group-hover:flex gap-1">
                         <a
                           href={code}
-                          target="blank"
+                          target="_blank"
+                          rel="noreferrer"
                           className="button-card flex gap-1 items-center"
                         >
                           Code <MdOutlineArrowOutward />
                         </a>
+
                         <a
                           href={link}
-                          target="blank"
+                          target="_blank"
+                          rel="noreferrer"
                           className="button-card flex gap-1 items-center"
                         >
-                          Live <MdOutlineArrowOutward />
+                          View Project <MdOutlineArrowOutward />
                         </a>
                       </div>
                     </div>
