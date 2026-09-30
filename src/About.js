@@ -2,6 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import { AnimatedSection } from "./AnimatedSection";
 import profile from "./assets/images/Profile.png";
 
+const words = ["developer", "problem solver"];
 function About() {
   const [displayText, setDisplayText] = useState("");
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
@@ -9,7 +10,7 @@ function About() {
   const [charIndex, setCharIndex] = useState(0);
   const timeoutRef = useRef(null);
 
-  const words = ["developer", "problem solver"];
+  
 
   const education = [
     "Bachelor of Computer Science – Higher Technological Institute (2018 – 2022)",
@@ -53,7 +54,7 @@ function About() {
     }
 
     return () => clearTimeout(timeoutRef.current);
-  }, [charIndex, currentWordIndex, isTyping]);
+}, [charIndex, currentWordIndex, isTyping]);
 
   return (
     <section
