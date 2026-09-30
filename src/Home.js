@@ -14,7 +14,7 @@ const Home = ({ handleSlider }) => {
           </AnimatedSection>
           <AnimatedSection delay={0.8}>
             <p className="relative h-[clamp(80px,15vw,113px)] flex underline-offset-8 underline   w-fit  tracking-[3px] text-[clamp(1.9rem,7vw,8rem)]">
-              Strive for perfection
+              Flutter Developer
             </p>
           </AnimatedSection>
         </div>

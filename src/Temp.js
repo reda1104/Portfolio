@@ -1,20 +1,54 @@
 import React from "react";
 import { AnimatedSection } from "./AnimatedSection";
-import { FaReact, FaGithub, FaGitAlt } from "react-icons/fa";
+import {
+  FaGithub,
+  FaGitAlt,
+  FaCode,
+  FaLayerGroup,
+  FaDatabase,
+  FaLightbulb,
+} from "react-icons/fa";
 import { SiFlutter, SiDart, SiFirebase } from "react-icons/si";
 
 function Skills() {
   const skills = [
-    { name: "Flutter", icon: <SiFlutter size={40} className="mx-auto" /> },
-    { name: "Dart", icon: <SiDart size={40} className="mx-auto" /> },
-    { name: "Firebase", icon: <SiFirebase size={40} className="mx-auto" /> },
-    { name: "RESTful APIs", icon: <FaReact size={40} className="mx-auto" /> },
-    { name: "BLoC / Cubit", icon: <FaReact size={40} className="mx-auto" /> },
-    { name: "Clean Architecture", icon: <FaReact size={40} className="mx-auto" /> },
-    { name: "Git", icon: <FaGitAlt size={40} className="mx-auto" /> },
-    { name: "GitHub", icon: <FaGithub size={40} className="mx-auto" /> },
-    { name: "Problem Solving", icon: <FaReact size={40} className="mx-auto" /> },
-  ];
+  {
+    name: "Flutter",
+    icon: <SiFlutter size={40} className="mx-auto" />,
+  },
+  {
+    name: "Dart",
+    icon: <SiDart size={40} className="mx-auto" />,
+  },
+  {
+    name: "Firebase",
+    icon: <SiFirebase size={40} className="mx-auto" />,
+  },
+  {
+    name: "REST APIs",
+    icon: <FaCode size={40} className="mx-auto" />,
+  },
+  {
+    name: "BLoC / Cubit",
+    icon: <FaLayerGroup size={40} className="mx-auto" />,
+  },
+  {
+    name: "Hive & Local Storage",
+    icon: <FaDatabase size={40} className="mx-auto" />,
+  },
+  {
+    name: "Git",
+    icon: <FaGitAlt size={40} className="mx-auto" />,
+  },
+  {
+    name: "GitHub",
+    icon: <FaGithub size={40} className="mx-auto" />,
+  },
+  {
+    name: "Problem Solving",
+    icon: <FaLightbulb size={40} className="mx-auto" />,
+  },
+];
 
   return (
     <section id="skills" className="section-style w-full bg-black text-white">
